@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.app1.dell.socialsites.FinalPage">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/fb"
+        android:background="@drawable/fblogo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#03070C"
+        android:text="FACEBOOK"
+        android:gravity="center"
+        android:id="@+id/fbtext"
+        android:layout_below="@+id/fb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/insta"
+        android:background="@drawable/insta"
+        android:layout_alignBottom="@+id/fb"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="INSTAGRAM"
+        android:id="@+id/instatext"
+        android:textColor="#03070C"
+        android:gravity="center"
+        android:layout_below="@+id/insta"
+        android:layout_alignLeft="@+id/insta"
+        android:layout_alignStart="@+id/insta" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/twiimage"
+        android:background="@drawable/twitter"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="TWITTER"
+        android:id="@+id/twittext"
+        android:gravity="center"
+        android:textColor="#03070C"
+        android:layout_below="@+id/twiimage"
+        android:layout_alignLeft="@+id/twiimage"
+        android:layout_alignStart="@+id/twiimage" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/utubeimg"
+        android:background="@drawable/youtube"
+        android:layout_alignTop="@+id/linkedimg"
+        android:layout_alignLeft="@+id/twittext"
+        android:layout_alignStart="@+id/twittext" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="YOUTUBE"
+        android:id="@+id/utubetxt"
+        android:gravity="center"
+        android:textColor="#03070C"
+        android:layout_below="@+id/utubeimg"
+        android:layout_alignRight="@+id/utubeimg"
+        android:layout_alignEnd="@+id/utubeimg" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/linkedimg"
+        android:background="@drawable/linkedinlogo"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/fbtext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="LINKEDIN"
+        android:id="@+id/linkedtxt"
+        android:textColor="#03070C"
+        android:gravity="center"
+        android:layout_below="@+id/linkedimg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/pinlogo"
+        android:id="@+id/pinid"
+        android:layout_alignTop="@+id/utubeimg"
+        android:layout_alignLeft="@+id/instatext"
+        android:layout_alignStart="@+id/instatext" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="PINTEREST"
+        android:id="@+id/pintv"
+        android:gravity="center"
+        android:textColor="#03070C"
+        android:layout_below="@+id/pinid"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blog"
+        android:id="@+id/blogimg"
+        android:layout_below="@+id/linkedtxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#03070C"
+        android:text="BLOGGER"
+        android:id="@+id/blogid"
+        android:layout_below="@+id/blogimg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/googleimgid"
+        android:layout_above="@+id/blogid"
+        android:background="@drawable/googlepluslogo"
+        android:layout_alignTop="@+id/blogimg"
+        android:layout_alignLeft="@+id/utubetxt"
+        android:layout_alignStart="@+id/utubetxt"
+        android:layout_alignRight="@+id/utubetxt"
+        android:layout_alignEnd="@+id/utubetxt" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="GOOGLE PLUS"
+        android:textColor="#03070C"
+        android:id="@+id/googletxt"
+        android:layout_below="@+id/googleimgid"
+        android:layout_alignLeft="@+id/googleimgid"
+        android:layout_alignStart="@+id/googleimgid" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/quoraimgid"
+        android:background="@drawable/quoralogo"
+        android:layout_alignTop="@+id/googleimgid"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="QUORA"
+        android:id="@+id/quoratxtid"
+        android:gravity="center"
+        android:textColor="#03070C"
+        android:layout_below="@+id/quoraimgid"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:background="#8E0417"
+        android:id="@+id/logoutbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#305f1d"
+    tools:context="com.app1.dell.socialsites.FragmentOne">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="SIMPLE AND INSANELY FUN\n\n If you are using this app then i assure you that you have choose the right one !\nThis SocialSites App will be much fun to you.It provides you all social media here at one platform.You just need to register and then the app is all yours.\n+ NO INTERNET FOR REGISTERING TO APP.\n prakashKumarTiwari ©"
+        android:id="@+id/textView"
+        android:layout_gravity="center" />
+</FrameLayout>
